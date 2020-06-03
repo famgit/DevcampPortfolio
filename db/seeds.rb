@@ -62,3 +62,11 @@ Ipsum passages, and more recently with desktop publishing software like Aldus
       )
 end
 puts "1 Angular portfolio items were created!"
+
+3.times do |technology|
+  Technology.create!(
+      name:"technology #{technology +1}",
+           portfolio_id: Portfolio.last.id
+  )
+end
+puts "3 Technologies were created!"
