@@ -1,3 +1,8 @@
+3.times do |topic|
+  Topic.create!(
+           title:"Topic #{topic+1}"
+  )
+end
 10.times do |blog|
   Blog.create!(
       title: "My Blog post #{blog + 1}",
@@ -10,7 +15,8 @@ odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem s
 Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
  ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea
 voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
-eum fugiat quo voluptas nulla pariatur?"
+eum fugiat quo voluptas nulla pariatur?",
+          topic_id: Topic.last.id
   )
 end
 puts "10 blog posts were created!"
@@ -21,10 +27,10 @@ puts "10 blog posts were created!"
   )
 end
 puts "5 skills created!"
-9.times do |portfolio_item|
+8.times do |portfolio_item|
   Portfolio.create!(
       title:"pottfolio title: #{portfolio_item}",
-      subtitle:"my great service",
+      subtitle:"Ruby On Rails",
       body:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.
  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type
@@ -37,4 +43,30 @@ Ipsum passages, and more recently with desktop publishing software like Aldus
       thumb_image:"https://via.placeholder.com/350x200/",
       )
 end
-puts "9 portfolio items were created!"
+puts "8 Ruby On Rails portfolio items were created!"
+
+1.times do |portfolio_item|
+  Portfolio.create!(
+      title:"pottfolio title: #{portfolio_item}",
+      subtitle:"Angular",
+      body:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+when an unknown printer took a galley of type and scrambled it to make a type
+ specimen book. It has survived not only five centuries, but also the leap into
+ electronic typesetting, remaining essentially unchanged. It was popularised in
+the 1960s with the release of Letraset sheets containing Lorem
+Ipsum passages, and more recently with desktop publishing software like Aldus
+ PageMaker including versions of Lorem Ipsum.",
+      main_image:"https://via.placeholder.com/600x400/",
+      thumb_image:"https://via.placeholder.com/350x200/",
+      )
+end
+puts "1 Angular portfolio items were created!"
+
+3.times do |technology|
+  Technology.create!(
+      name:"technology #{technology +1}",
+           portfolio_id: Portfolio.last.id
+  )
+end
+puts "3 Technologies were created!"
