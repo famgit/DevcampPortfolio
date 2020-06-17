@@ -6,3 +6,10 @@
 <% @portfolio_item.technologies.each do |t| %>
   <p><%= t.name %></p>
 <% end %>
+<hr>
+Inspect: <%= params.inspect %><hr>
+ID: <%= params[:id] %><hr>
+Action: <%= params[:action] %><hr>
+Controller:<b> <%= params[:controller] %></b><hr>
+Portfolio:<b> <%= Portfolio.find(params[:id])%></b><hr>
+Portfolio:<b> <%= Portfolio.find(params[:id]).title %></b><hr>
