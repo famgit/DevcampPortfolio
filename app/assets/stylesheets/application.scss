@@ -112,10 +112,27 @@ body {
 
 .card-body{
   color:black;
-  width: 32rem;
+  /*width: 32rem;
   height: 42rem;
+   */
   text-align: left;
+
 }
 .auth-links a{
+  color: black;
+ 
+}
+.register-text{
+   text-align: right;
+}
+
+
+
+
+.login > .card{
+  width:22em;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
   color: black;
 }
