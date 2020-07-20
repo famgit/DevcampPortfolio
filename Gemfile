@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -63,3 +64,4 @@ gem 'pry', '~> 0.12.2'
 gem 'sprockets'
 gem 'devcamp_view_tool', git: 'https://github.com/famgit/-devcamp_view_tool'
 gem 'petergate', '~> 2.0', '>= 2.0.1'
+gem 'kaminari', '~> 1.2', '>= 1.2.1'
