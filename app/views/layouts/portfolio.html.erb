@@ -11,13 +11,12 @@
 
   <body>
 
-<%= render 'shared/portfolio_nav' %>
-<main role="main"> 
+<%= render 'shared/portfolio_nav' %> 
   <%=render 'shared/portfolio_masthead' unless logged_in?(:site_admin) %>
     <%= yield %>
   <%= source_helper("Portfolios")%>
-</main>
+
+<hr>
 <%= render 'shared/portfolio_footer' %>
   </body>
 </html>
-<!-- portfolio lay out

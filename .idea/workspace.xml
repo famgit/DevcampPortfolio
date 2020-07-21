@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0aca62-7e50-4bc2-8e08-a925da3e46e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DevcampPortfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DevcampPortfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/portfolios.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/portfolios.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/portfolio.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/portfolio.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/portfolios/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolios/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/portfolios/_portfolio_item.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolios/_portfolio_item.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/portfolios/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolios/edit.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/portfolios/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolios/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/portfolios/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolios/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/portfolios/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolios/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_application_nav.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_application_nav.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_blog_nav.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_blog_nav.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_portfolio_masthead.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_portfolio_masthead.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_portfolio_nav.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_portfolio_nav.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -59,19 +37,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/blogs.scss">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/portfolio.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="194">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+        <entry file="file://$PROJECT_DIR$/app/views/portfolios/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -104,7 +82,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pages.scss" />
         <option value="$PROJECT_DIR$/app/views/portfolios/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/portfolios/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/portfolios.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
@@ -135,6 +112,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/portfolios/index.html.erb" />
       </list>
     </option>
   </component>
@@ -195,6 +173,13 @@
               <item name="DevcampPortfolio" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DevcampPortfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DevcampPortfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DevcampPortfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -419,12 +404,12 @@
       <workItem from="1593082756318" duration="10476000" />
       <workItem from="1593418611511" duration="18731000" />
       <workItem from="1595260166300" duration="1318000" />
-      <workItem from="1595261679239" duration="5798000" />
+      <workItem from="1595261679239" duration="7266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207219000" />
+    <option name="totallyTimeSpent" value="208687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,12 +424,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.21104388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.21255673" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.21255673" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32569557" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.16202946" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.24222586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -593,24 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portfolios/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portfolios/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portfolios/_portfolio_item.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -663,13 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/portfolio.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -770,7 +734,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -788,6 +752,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -795,10 +766,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/portfolios/_portfolio_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/portfolio.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portfolios/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
