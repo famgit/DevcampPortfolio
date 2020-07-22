@@ -3,7 +3,7 @@ class PortfoliosController < ApplicationController
    before_action :set_portfolio, only: [:show, :edit, :update, :destroy]
   layout 'portfolio'
   def index
-    @portfolio_items = Portfolio.all
+    @portfolio_items = Portfolio.by_position
   end
   def angular
     @angular_portfolio_items = Portfolio.angular
