@@ -1,5 +1,5 @@
-alert('Hey there!');
-/*
+/*alert('Hey there!');
+ *
  * HTML5Sortable package
  * https://github.com/lukasoppermann/html5sortable
  *
