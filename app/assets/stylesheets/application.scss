@@ -21,7 +21,6 @@ a:hover {
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
   border: .05rem solid #fff;
 }
 
@@ -33,7 +32,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 
 body {
@@ -143,4 +141,21 @@ body {
 .justify-content-center span{
   margin-left:10px;
   margin-right:10px;
+}
+#background{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image_url('helium-hard-drive.jpg') no-repeat;
+  background-size: cover;
+}
+.app-footer{
+  color: white;
 }
