@@ -92,6 +92,6 @@ redirect_to blogs_url, notice: 'Post status has been updated'
 
     # Only allow a list of trusted parameters through.
     def blog_params
-      params.require(:blog).permit(:title, :body)
+      params.require(:blog).permit(:title, :body, :topic_id)
     end
 end
