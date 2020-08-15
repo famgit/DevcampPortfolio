@@ -33,7 +33,8 @@
                 <%= render 'shared/blog_masthead_fir' unless logged_in?(:site_admin) %>
                 <%= render 'shared/blog_masthead_sec' unless logged_in?(:site_admin) %>
 
-                  <p><%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %></p> 
+        <span><%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %></span>
+        <span><%= link_to "Topics", topics_path %></span>
                 
                    </div>  
                   <!-- <hr> -->
