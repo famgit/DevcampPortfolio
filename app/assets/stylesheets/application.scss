@@ -161,3 +161,16 @@ body {
 .app-footer{
   color: white;
 }
+/*
+ * Custom Styles
+ */
+.tech-news{
+  color: black;
+  margin: 2px;
+}
+.tech-news a{
+  color: green;
+}
+.tech-news > card{
+  padding: 30px;
+}
