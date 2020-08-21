@@ -1,6 +1,14 @@
 @import "bootstrap";
 @import "font-awesome";
 @import "gritter";
+@font-face {
+  font-family: 'Lato';
+  scr:font_url('Lato-Regular.ttf')
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  scr:font_url('RobotoSlab-Regular.ttf')
+}
 
 .blog-header {
   line-height: 1;
@@ -15,9 +23,12 @@
 .blog-header-logo:hover {
   text-decoration: none;
 }
+body {
+  font-family: 'Lato';
+}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-family: 'Robolt Slab';
 }
 
 .display-4 {
