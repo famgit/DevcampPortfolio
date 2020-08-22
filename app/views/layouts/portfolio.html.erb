@@ -5,6 +5,7 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="keywords" content = <%= @seo_keywords %>>
+    <%= favicon_link_tag 'favicons/favicon2.ico' %>
     <%= stylesheet_link_tag    'portfolios', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -13,7 +14,6 @@
   <%=render 'shared/portfolio_masthead' unless logged_in?(:site_admin) %>
     <%= yield %>
 <%= alerts %>
-  <%= source_helper("Portfolios")%>
 <hr>
 <%= render 'shared/portfolio_footer' %>
   </body>
